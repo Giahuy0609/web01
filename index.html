@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chúc Mừng Sinh Nhật</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-container"></div>
+  
+    <!-- Text chạy ngang màn hình -->
+
+
+  <div class="birthday-box">
+    <h1>🎉 Chúc Mừng Sinh Nhật Ba Tuyến 🎂</h1>
+
+    <div class="cake">
+      <div class="plate"></div>
+      <div class="layer layer-bottom"></div>
+      <div class="layer layer-middle"></div>
+      <div class="layer layer-top"></div>
+      <div class="icing"></div>
+      <div class="age-text">47 tuổi</div>
+      <div class="candle">
+        <div class="flame" id="flame"></div>
+      </div>
+      
+    </div>
+
+    <div class="instructions" id="instructions">Ba Hãy Nhấn vào nút bên dưới để bắt đầu </div>
+    <p>👇</p>
+    <button id="startButton">Bắt đầu</button>
+
+    <audio id="birthdayMusic" loop>
+      <source src="./HappyBirthdayPianoVersion-Piano-13174307.mp3" type="audio/mpeg">
+      Trình duyệt của bạn không hỗ trợ phát nhạc.
+    </audio>
+    <canvas id="confetti-canvas"></canvas>
+  </div>
+  <div class="balloon-container" id="balloonContainer"></div>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+</body>
+</html>
